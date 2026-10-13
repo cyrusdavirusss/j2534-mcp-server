@@ -1,0 +1,76 @@
+{
+  "when": "2026-09-24 19:01:04",
+  "bus": "ISO15765 500k",
+  "modules": {
+    "01": {
+      "addr": "01",
+      "name": "Engine",
+      "req": "7E0",
+      "rx": "7E8",
+      "id_convention": "OBD 7E0+n",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 31 39 30 37 31 31 35 44 20",
+        "SWver_22F189": "62 F1 89 30 30 30 32",
+        "HWver_22F191": "62 F1 91 38 4B 31 39 30 37 31 31 35 20 20"
+      },
+      "dtc_error": "7F 19 13"
+    },
+    "02": {
+      "addr": "02",
+      "name": "Auto Trans",
+      "req": "7E1",
+      "rx": "7E9",
+      "id_convention": "OBD 7E0+n",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 30 39 32 37 31 35 35 54 20",
+        "SWver_22F189": "62 F1 89 30 30 31 31",
+        "Serial_22F18C": "62 F1 8C 30 30 30 30 30 30 30 35 36 35",
+        "HWver_22F191": "62 F1 91 30 41 57 39 32 37 31 35 36 48 20"
+      },
+      "dtc_error": "7F 19 13"
+    },
+    "15": {
+      "addr": "15",
+      "name": "Airbags",
+      "req": "715",
+      "rx": "77F",
+      "id_convention": "req=700+a rx=+6A",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 30 39 35 39 36 35 35 42 20",
+        "SWver_22F189": "62 F1 89 30 34 31 30",
+        "Serial_22F18C": "62 F1 8C 30 30 33 38 4A 44 31 41 56 59 30 58 20 20",
+        "HWver_22F191": "62 F1 91 38 4B 30 39 35 39 36 35 35 42 20"
+      },
+      "dtc_error": "7F 19 13"
+    }
+  },
+  "functional": {
+    "OBD_0100": {
+      "7E8": "41 00 BE 1F A8 13"
+    },
+    "OBD_03": {},
+    "UDS_1902FF": {},
+    "OBD_0902_VIN": {
+      "7E8": "49 02 01 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30"
+    }
+  },
+  "notes": [
+    "TV Tuner: filter rejected (rx=7C1 req=757)",
+    "Lane Assist: filter rejected (rx=764 req=75C)",
+    "Information Electr.: filter rejected (rx=767 req=75F)",
+    "Door Rear Left: filter rejected (rx=76A req=762)",
+    "Tire Pressure: filter rejected (rx=76D req=765)",
+    "Voice Control: filter rejected (rx=76F req=767)",
+    "Trailer: filter rejected (rx=771 req=769)",
+    "Back-up Cam: filter rejected (rx=774 req=76C)",
+    "Door Rear Right: filter rejected (rx=77A req=772)",
+    "Park Assist 2: filter rejected (rx=77E req=776)",
+    "Telephone: filter rejected (rx=77F req=777)"
+  ]
+}

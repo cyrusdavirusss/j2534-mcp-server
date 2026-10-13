@@ -1,0 +1,491 @@
+{
+  "when": "2026-09-24 19:09:37",
+  "found": {
+    "7E0": {
+      "req": "7E0",
+      "rx": "7E8",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 31 39 30 37 31 31 35 44 20",
+        "SWver_22F189": "62 F1 89 30 30 30 32",
+        "HWver_22F191": "62 F1 91 38 4B 31 39 30 37 31 31 35 20 20"
+      },
+      "dtcs": [
+        {
+          "code": "P0010EA",
+          "raw": "0010EA",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00154E",
+          "raw": "00154E",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00154F",
+          "raw": "00154F",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00154D",
+          "raw": "00154D",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001550",
+          "raw": "001550",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001498",
+          "raw": "001498",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001552",
+          "raw": "001552",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001555",
+          "raw": "001555",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0010B7",
+          "raw": "0010B7",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012D0",
+          "raw": "0012D0",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0001054",
+          "raw": "000A54",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015E1",
+          "raw": "0015E1",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015E2",
+          "raw": "0015E2",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011C6",
+          "raw": "0011C6",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011D9",
+          "raw": "0011D9",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DA",
+          "raw": "0011DA",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DB",
+          "raw": "0011DB",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DD",
+          "raw": "0011DD",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DE",
+          "raw": "0011DE",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DC",
+          "raw": "0011DC",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011DF",
+          "raw": "0011DF",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E1",
+          "raw": "0011E1",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E2",
+          "raw": "0011E2",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E0",
+          "raw": "0011E0",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E3",
+          "raw": "0011E3",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E5",
+          "raw": "0011E5",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E6",
+          "raw": "0011E6",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E4",
+          "raw": "0011E4",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E7",
+          "raw": "0011E7",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E8",
+          "raw": "0011E8",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011E9",
+          "raw": "0011E9",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0011EA",
+          "raw": "0011EA",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001216",
+          "raw": "001216",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001556",
+          "raw": "001556",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00115B1",
+          "raw": "001FB1",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001235",
+          "raw": "001235",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00125E",
+          "raw": "00125E",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001236",
+          "raw": "001236",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001237",
+          "raw": "001237",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015DD",
+          "raw": "0015DD",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0010FD",
+          "raw": "0010FD",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001110",
+          "raw": "001110",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015DF",
+          "raw": "0015DF",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015E3",
+          "raw": "0015E3",
+          "status": "0x40",
+          "status_flags": "testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00111F",
+          "raw": "00111F",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001121",
+          "raw": "001121",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012ED",
+          "raw": "0012ED",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00111E1",
+          "raw": "001BE1",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015E9",
+          "raw": "0015E9",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015EB",
+          "raw": "0015EB",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015EC",
+          "raw": "0015EC",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012FD",
+          "raw": "0012FD",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012FE",
+          "raw": "0012FE",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012FF",
+          "raw": "0012FF",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0013",
+          "raw": "001300",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001301",
+          "raw": "001301",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001192",
+          "raw": "001192",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00111EC",
+          "raw": "001BEC",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00111ED",
+          "raw": "001BED",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P00111EF",
+          "raw": "001BEF",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P001120",
+          "raw": "001120",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0012EC",
+          "raw": "0012EC",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0015EA",
+          "raw": "0015EA",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0010E9",
+          "raw": "0010E9",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        },
+        {
+          "code": "P0010EB",
+          "raw": "0010EB",
+          "status": "0x50",
+          "status_flags": "testNotCompletedSinceClear,testNotCompletedThisCycle"
+        }
+      ],
+      "dtc_read": {
+        "mask": "19020F",
+        "faults": [
+          {
+            "code": "P000F D6",
+            "raw": "000FD6",
+            "status": "0x65",
+            "status_flags": "testFailed,pending,testFailedSinceClear,testNotCompletedThisCycle"
+          },
+          {
+            "code": "P000F D9",
+            "raw": "000FD9",
+            "status": "0x65",
+            "status_flags": "testFailed,pending,testFailedSinceClear,testNotCompletedThisCycle"
+          },
+          {
+            "code": "P000F D3",
+            "raw": "000FD3",
+            "status": "0x65",
+            "status_flags": "testFailed,pending,testFailedSinceClear,testNotCompletedThisCycle"
+          }
+        ],
+        "entries": 3,
+        "neg": null
+      }
+    },
+    "7E1": {
+      "req": "7E1",
+      "rx": "7E9",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 30 39 32 37 31 35 35 54 20",
+        "SWver_22F189": "62 F1 89 30 30 31 31",
+        "Serial_22F18C": "62 F1 8C 30 30 30 30 30 30 30 35 36 35",
+        "HWver_22F191": "62 F1 91 30 41 57 39 32 37 31 35 36 48 20"
+      },
+      "dtc_read": {
+        "mask": "19020F",
+        "faults": [
+          {
+            "code": "P0008 B1",
+            "raw": "0008B1",
+            "status": "0x6C",
+            "status_flags": "pending,confirmed,testFailedSinceClear,testNotCompletedThisCycle"
+          }
+        ],
+        "entries": 1,
+        "neg": null
+      }
+    },
+    "715": {
+      "req": "715",
+      "rx": "77F",
+      "tester_present": "7E 00",
+      "dids": {
+        "VIN_22F190": "62 F1 90 57 41 55 5A 5A 5A 38 4B 30 39 41 30 39 38 32 35 30",
+        "PartNo_22F187": "62 F1 87 38 4B 30 39 35 39 36 35 35 42 20",
+        "SWver_22F189": "62 F1 89 30 34 31 30",
+        "Serial_22F18C": "62 F1 8C 30 30 33 38 4A 44 31 41 56 59 30 58 20 20",
+        "HWver_22F191": "62 F1 91 38 4B 30 39 35 39 36 35 35 42 20"
+      },
+      "dtcs": [
+        {
+          "code": "U1101",
+          "raw": "D10100",
+          "status": "0x08",
+          "status_flags": "confirmed"
+        }
+      ],
+      "dtc_read": {
+        "mask": "1902FF",
+        "faults": [
+          {
+            "code": "U1101 00",
+            "raw": "D10100",
+            "status": "0x08",
+            "status_flags": "confirmed"
+          }
+        ],
+        "entries": 1,
+        "neg": null
+      }
+    }
+  }
+}
